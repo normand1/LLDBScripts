@@ -38,3 +38,24 @@ Once the new LLDB function is available you'll be able to invoke `jprint` like s
 }
 
 ```
+
+## Installation
+
+
+1. Open a new terminal window
+2. Clone this repo to your desired directory
+3. Run the following command:
+`echo "command script import {PATH TO CLONED REPO}/jprint.py" >> ~/.lldbinit`
+4. Close the existing terminal and open a new one
+5. run the following command:
+```
+lldb
+(lldb) help
+```
+6. At the bottom of the message printed to the console you should see something like the following:
+```
+Current user-defined commands:
+  jprint -- For more information run 'help jprint'
+```
+
+Now you should be able to access jprint from the Xcode lldb debugger the same way you use `po` and other common lldb debugging functions
