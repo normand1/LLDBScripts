@@ -58,4 +58,4 @@ Current user-defined commands:
   jprint -- For more information run 'help jprint'
 ```
 
-Now you should be able to access jprint from the Xcode lldb debugger the same way you use `po` and other common lldb debugging functions
+Now you should be able to access `jprint` from the Xcode lldb debugger the same way you use `po` and other common lldb debugging functions
